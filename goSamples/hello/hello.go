@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"sample/user/stringutil"
+	"sample/goSamples/stringutil"
 )
 
 var (
