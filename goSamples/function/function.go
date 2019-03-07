@@ -2,13 +2,11 @@ package main
 
 import (
 	"fmt"
-
 )
 
 func vals() (int,int) {
 	return 3, 7
 }
-
 
 func sum(a int, b int) int {
 	return a+b
@@ -19,7 +17,6 @@ func varargsfunc(nums ...int) int {
 	for _,j := range nums {
 		sum += j
 	}
-
 	return sum
 }
 
